@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sista Project</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
+  <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="dist/img/logo-sista.png" alt="Sista logo" height="60" width="60">
+  </div>
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+    <div class="container">
+      <a href="index3.html" class="navbar-brand">
+        <img src="dist/img/logo-sista.png" alt="Sista Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <span class="brand-text font-weight-light">SISTA-Project</span>
+      </a>
+
+      <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index3.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Jadwal</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Daftar Seminar</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Berita</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+        <!-- SEARCH FORM -->
+        <form class="form-inline ml-0 ml-md-3">
+          <div class="input-group input-group-sm">
+            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-navbar" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Right navbar links -->
+      <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+        <!-- Messages Dropdown Menu -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">
+            <i class="fas fa-comments"></i>
+            <span class="badge badge-danger navbar-badge"></span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+            <a href="#" class="dropdown-item">
+              <p class="text-sm">Tidak ada pesan</p>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+          </div>
+        </li>
+        <!-- Notifications Dropdown Menu -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">
+            <i class="far fa-bell"></i>
+            <span class="badge badge-warning navbar-badge"></span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+            <span class="dropdown-header">0 Notifications</span>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-envelope mr-2"></i> 0 new messages
+              <span class="float-right text-muted text-sm"></span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-users mr-2"></i> 0 friend requests
+              <span class="float-right text-muted text-sm"></span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-file mr-2"></i> 0 new reports
+              <span class="float-right text-muted text-sm"></span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+          </div>
+        </li>        
+      </ul>
+    </div>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0"> Sistem Informasi Seminar Tugas Akhir - SISTA</h1>
+          </div><!-- /.col -->
+          <!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <div class="container">
+      <p>Pendaftaran seminar berlaku untuk mahasiswa yang telah mendapat persetujuan dari pembimbing TA</p>
+      <div class="row border border-dark">
+        <div class="col-12">
+         <fieldset>  
+           <legend>Seminar Proposal</legend>
+           <div class="row">
+             <div class="col-6">
+              <table>
+                <tr>
+                  <td>NIM : </td>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <td>Nama : </td>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <td>Prodi : </td>
+                  <td>
+                    <select>
+                      <option>Sistem Informasi</option>
+                      <option>Teknik Informatika</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Tanggal Seminar : </td>
+                  <td><input type="date"></td>
+                </tr>
+                <tr>
+                  <td>Jam Seminar : </td>
+                  <td><input type="time"></td>
+                </tr>
+                <tr>
+                  <td>Ruangan : </td>
+                  <td><input type="text"></td>
+                </tr>
+              </table>
+             </div>
+             <div class="col-6">
+              <table>
+                <tr>
+                  <td>Judul TA : </td>
+                  <td><textarea name="judul" id="" cols="30" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                  <td>Seminar : </td>
+                  <td>
+                    <select>
+                      <option>Proposal</option>
+                      <option>Seminar Hasil</option>
+                      <option>Seminar Akhir</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Pembimbing : </td>
+                  <td>
+                    <select>
+                      <option>Sirojul Munir S.SI, M.KOM</option>
+                      <option>Ahmad Rio M.SI</option>
+                      <option>Amalia Rahmah M.T</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Penguji 1 : </td>
+                  <td>
+                    <select>
+                      <option>Ahmad Rio M.SI</option>
+                      <option>Sirojul Munir S.SI, M.KOM</option>
+                      <option>Amalia Rahmah M.T</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Penguji 2 : </td>
+                  <td>
+                    <select>
+                      <option>Amalia Rahmah M.T</option>
+                      <option>Sirojul Munir S.SI, M.KOM</option>
+                      <option>Ahmad Rio M.SI</option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+             </div>
+           </div>
+         </fieldset>
+         <a href="7.Kelola-Seminar.html"><button name="submit" type="submit" class="btn btn-primary">Daftar Peserta</button></a>
+        </div>
+      </div>
+      
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="float-right d-none d-sm-inline">
+      Anything you want
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2022 <a href="dashboard.html">SISTA-Backend</a>.</strong> All rights reserved.
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+</body>
+</html>
